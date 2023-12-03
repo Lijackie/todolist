@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,4 +24,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.todo-card {
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+
 }
